@@ -1,0 +1,136 @@
+en:
+  next: Next
+  previous: Previous
+  errors:
+    error_pdf: "The PDF you've tried to download does not exist or may have been removed."
+  brand:
+    title: Center of SouthWest Studies
+    title_subtext: ""
+    title_link_text: Return to the main page
+    logo_link: https://swcenter.fortlewis.edu/
+    logo_link_title: CSWS
+    logo_alt: CSWS Logo
+    home: Home
+    welcome_head: Center of SouthWest Studies
+    welcome_message:  <p><span class="large_it serif">Search the Archives</span></p>
+    welcome_page_title: Archives of the Center of SouthWest Studies
+    welcome_about: "<h4>About this Website</h4>      <div> This website allows researchers to explore the archives and special collections of the Center of SouthWest Studies.  <br/><br/> 
+    All collection inventories made available in this database are licensed under a CC0 1.0 Universal (CCO 1.0) Public Domain Dedication. Anyone may copy, modify, and distribute this descriptive data without restriction or permission. More information is available on the <a href='https://creativecommons.org/publicdomain/zero/1.0/' target='new' class='under'>Creative Commons website</a>: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication.
+      </div>"
+    welcome_requests: "<h4>Requesting Access to Archival Materials</h4> <div><br/> Your Text Here. 
+     </div>"
+  
+    
+  
+  footer:
+    staff: Staff Interface
+    aspace: "Powered by <a href='%{link}' target='_blank'>%{text}</a>"
+    feedback: Send Feedback
+    help: Help
+    accessibility: Accessibility
+    copyright: © <b>2024</b> 
+    harmful_language_statement: Harmful Language Statement
+    privacy: Privacy
+
+  actions:
+    digital_only: Digital Material
+    search_in: "Search within %{type}"
+    hierarch: Collection Inventory
+    numeric: Container List
+    print: View PDF
+    browse: "Browse"
+    staff_link: Staff
+
+  archive:
+    _singular: The Archive
+    _plural: ''
+
+  csv:
+    ead_id: EAD ID
+    resource_title: Collection Title
+    resource_creator:  Collection Creator
+    resource_dates: Collection Dates
+    resource_ref_id: Collection Identifier
+    ref_id: Database Number
+    title: Component Title
+    date: Component Date
+    s_year: Start Year
+    e_year: End Year
+    id: Component identifier
+    type: Component type
+    creator: Component creator
+    container: Container info
+    phys: Physical description
+    loc: Location Note
+    restrict: Access Note
+    urn: Digital content link
+    parent: "Level %{i}"
+    download_title: Download CSV
+    download: CSV
+  search-limit_label: Limit
+  search_results:
+    # results_head: "%{type}: <span>%{start}</span> - <span>%{end}</span> of <span>%{total}</span>"
+    filter:
+      add: Refine my results
+
+  pdf_reports:
+    return: Return to Table of Contents
+    table_of_contents: Table of Contents
+   
+
+  context_delimiter: /
+ 
+  subject_term_type:  Subject Term Type
+
+  request:
+    default: "<strong>Ready to get to work?</strong><p>Once you have compiled a list of material you would like to consult in the reading room, please contact %{repo} at <a href='mailto:%{email}'>%{email}</a>.</p>"
+    how_to_request: "How to Request"
+  
+  
+
+
+  resource:
+    _singular: Archival Collection
+    _plural: Archival Collections
+    _public:
+      finding_aid:
+        head: Administrative Information
+        ead_id: EAD ID
+
+  classification:
+    _singular: Institutional Record
+    _plural: Institutional Records
+  digital_object:
+    _public:
+       link: View Digital Contents
+       in_collection: "Contains digital material %{details} "
+       details:
+         _singular: (1 item)
+         _plural: "(%{ct} items)"
+  record_group:
+    _singular: Institutional Record
+    _plural: Institutional Records
+  inherit:
+    collection: Archival Collection
+    recordgrp: Institutional Record
+
+  views:
+    _shared:
+       digital_object_link: "%{name}"
+       digital_flag: Digital
+       digital_flag_title: Has associated digital material
+    tree:
+       expand: Expand
+
+  enumerations:
+    instance_instance_type:
+      digital_object: View Digital Material
+    archival_record_level:
+      unspecified: Item
+      untitled: Untitled
+      collection: Archival Collection
+      recordgrp: Institutional Record
+
+    _note_types:
+      odd: General note
+      abstract: Overview

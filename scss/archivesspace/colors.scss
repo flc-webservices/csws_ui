@@ -1,0 +1,64 @@
+/* colors and icons for your institution */
+
+$black: #000;
+$darkest: #00171f;
+$white: #fff;
+$darkblue: #041c2f;
+$midblue: #006e99;
+$lightblue: #007cad;
+$darkshade: #888;
+$shade: #ccc;
+$lightshade: #eee;
+$highlight: #f7d309;
+$dark_against_shade: #004f6f; /* for contrast against lightshade */
+
+/* Center of SouthWest Studies colors */
+$clinker: #463524;  /*dark almost black */
+$darkest: $clinker;
+$powder-cake: #dfd7c9; /* greige-ish */
+$shade: $powder-cake;  /* powder-cake */
+$rogue-cowboy: #b89f89;
+$darkshade: $rogue-cowboy;
+$fall-gold:  #fcbd37;
+$highlight:  $fall-gold;
+$dark_against_shade: #463524; /*$clinker*/
+$brighter-orange:  #bf3726;
+$spill-the-beans: #9c341c;
+$gulab-brown: #902b1c;
+
+
+
+
+
+/* this is where you can change colors for your institution */
+
+$primary-color: $brighter-orange;
+$secondary-color: $spill-the-beans;
+$accent-color: $gulab-brown;
+$border-accent: $gulab-brown;
+$border: $shade;
+$image-background: $shade;
+$row-background: $lightshade;
+$button-background: $brighter-orange;
+$alt-button-background: $lightshade;
+$alt-button-color: $darkshade;
+$light-neutral: $lightshade;
+$breadcrumb-link: $gulab-brown;
+
+/* this is for the top horizontal nav bar */
+$nvBgDefault: $light-neutral;
+$nvBgHighlight: $light-neutral;
+$nvColDefault: $dark_against_shade;
+$nvColHighlight: $border-accent;
+
+$collection-color: $clinker;
+$subject-color: $clinker;
+$container-color:$clinker;
+$agent-color: $clinker;
+$record-color: $clinker;
+$repository-color: $clinker;
+$classification-color: $clinker;
+$accession-color: $collection-color;
+$digital-object-color: $collection-color;
+$archival-object-color: $clinker;
+$folder-color: $clinker;
