@@ -25,6 +25,7 @@ $dark_against_shade: #463524; /*$clinker*/
 $brighter-orange:  #bf3726;
 $spill-the-beans: #9c341c;
 $gulab-brown: #902b1c;
+$cswsgray: #223946;  /* matches main nav bar of the main site */
 
 
 
@@ -48,7 +49,7 @@ $breadcrumb-link: $gulab-brown;
 /* this is for the top horizontal nav bar */
 $nvBgDefault: $light-neutral;
 $nvBgHighlight: $light-neutral;
-$nvColDefault: $dark_against_shade;
+$nvColDefault: $cswsgray;
 $nvColHighlight: $border-accent;
 
 $collection-color: $clinker;

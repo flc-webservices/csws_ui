@@ -12,6 +12,24 @@ $lightshade: #eee;
 $highlight: #f7d309;
 $dark_against_shade: #004f6f; /* for contrast against lightshade */
 
+/* Center of SouthWest Studies colors */
+$clinker: #463524;  /*dark almost black */
+$darkest: $clinker;
+$powder-Cake: #dfd7c9; /* greige-ish */
+$shade: $powder-Cake;
+$fall-gold: #fcbd37;
+$highlight: $fall-gold;
+$dark_against_shade: $clinker;
+$brighter_orange:  #bf3726;
+$lightblue: $brighter_orange;
+$spill-the-beans: #9c341c; 
+$midblue: $spill-the-beans;
+$gulab-brown: #902b1c;
+$darkblue: $gulab-brown;
+
+
+
+
 /* this is where you can change colors for your institution */
 
 $primary-color: $lightblue;
@@ -33,14 +51,14 @@ $nvBgHighlight: $light-neutral;
 $nvColDefault: $dark_against_shade;
 $nvColHighlight: $border-accent;
 
-$collection-color: #e01919;
-$subject-color: #941c9a;
-$container-color: #0b5a14;
-$agent-color: #3b52ff;
-$record-color: #0b5a14;
-$repository-color: #7608b5;
-$classification-color: #015189;
+$collection-color: $clinker;
+$subject-color: $clinker;
+$container-color:$clinker;
+$agent-color: $clinker;
+$record-color: $clinker;
+$repository-color: $clinker;
+$classification-color: $clinker;
 $accession-color: $collection-color;
 $digital-object-color: $collection-color;
-$archival-object-color: #457141;
-$folder-color: #009fcf;
+$archival-object-color: $clinker;
+$folder-color: $clinker;

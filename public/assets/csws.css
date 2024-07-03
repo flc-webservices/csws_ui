@@ -12,6 +12,7 @@ $spill-the-beans: #9c341c;
 $midblue: $spill-the-beans;
 $gulab-brown: #902b1c;
 $darkblue: $gulab-brown;
+$cswsgray: #223946;  /* matches main nav bar of the main site 
 */
 
 
@@ -175,7 +176,7 @@ span.large_it {
 #header .logo {
   float: left;
   text-align: left;
-  height: 60px;
+  height: 120px;
 
 }
 
@@ -311,15 +312,15 @@ h1 > span.title {
     font-size: 1rem;
 }
 
-/* top horizontal menu */
+/* top horizontal menu */ 
 #collapsemenu {
-  background-color: #b45634 !important;
+  background-color: #223946 !important;
 }
 .search-field {
   border-right: none;
 }
 .top-bar {
-    background-color: #b45634 !important;
+    background-color: #223946 !important;
     border: 0;
     margin-top: 0;
    /* margin-right: 2em; */
@@ -341,7 +342,7 @@ h1 > span.title {
     padding-right: 0;
 }
 .navbar-default {
-    background-color: #b45634 !important;
+    background-color: #223946 !important;
     border: 0;
 }
 .navbar-default .navbar-text {
@@ -350,7 +351,7 @@ h1 > span.title {
 
 .navbar-default .navbar-nav > li > a {
   color: #FFFFFF;
-  border-right: 1px solid #b45634;
+  border-right: 1px solid #223946;
   font-size: inherit !important;
   background-color: transparent;
   margin:0;
@@ -524,7 +525,7 @@ ul.navbar-nav {
  div.nav-pill {
      border-left: 1px solid #ffffff;
      border-right: 1px solid #ffffff;
-     background-color: #447DB3;
+     background-color: #463524;
      color: #ffffff;
      text-align: center;
      padding-top: 6px;
@@ -533,7 +534,7 @@ ul.navbar-nav {
 
  div.nav-pill.active {
     background-color: #f2d997;
-  color: #414141;
+    color: #463524;
 }
 
  div.nav-pill > a {
@@ -551,17 +552,17 @@ div.nav-pill > a.active {
     text-decoration: none;
     cursor: none;
     background-color: #f2d997;
-    color: #414141;
+    color: #463524;
 }
 div.nav-pill.disabled {
     cursor: not-allowed;
-    background-color: #ADA089;
+    background-color: #b89f89;
     opacity: 0.65;
     filter: alpha(opacity=65);
 }
 div.nav-pill.disabled > a {
   text-decoration: none;
-  background-color: #ADA089;
+  background-color: #b89f89;
 }
 /* restructuring of search */
 div.search {
@@ -601,7 +602,7 @@ div.search {
     padding-bottom: 0;
     padding-top: 0;
     vertical-align: middle;
-    color: #414141;
+    color: #463524;
 }
 
 @media (min-width: 768px) {
@@ -671,15 +672,15 @@ i.fa-plus, i.fa-minus {
 
 /* general color choices */
 .fa-search {
-   color: #E8BB45;
+   color: #f7d309;
 }
 .nav-search {
-    color: #E8BB45;
+    color: #f7d309;
 }
 .btn-primary {
     color: #fff;
-    background-color: #1e1e1e;
-    border-color:  #1e1e1e;
+    background-color: #463524;
+    border-color:  #463524;
     text-transform: uppercase;
 }
 
@@ -690,7 +691,7 @@ i.fa-plus, i.fa-minus {
 
 .btn-primary:focus, .btn-primary.focus {
     color: #fff;
-    background-color: #8c8179;
+    background-color: #b89f89;
     border-color:  #000000;
 }
 

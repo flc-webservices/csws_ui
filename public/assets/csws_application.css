@@ -66,6 +66,7 @@
 /* greige-ish */
 /* powder-cake */
 /*$clinker*/
+/* matches main nav bar of the main site */
 /* this is where you can change colors for your institution */
 /* this is for the top horizontal nav bar */
 /*!
@@ -10260,16 +10261,16 @@ a img {
   border-color: #eee;
 }
 .navbar-default .navbar-brand {
-  color: #463524;
+  color: #223946;
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
   color: #902b1c;
 }
 .navbar-default .navbar-text {
-  color: #463524;
+  color: #223946;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #463524;
+  color: #223946;
   font-size: 1rem !important;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
@@ -10297,14 +10298,14 @@ a img {
   background-color: #eee;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #463524;
+  background-color: #223946;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #463524;
+  border-color: #223946;
 }
 .navbar-default .navbar-link {
-  color: #463524;
+  color: #223946;
   font-size: 1rem !important;
 }
 .navbar-default .navbar-link:hover {
@@ -10314,7 +10315,7 @@ a img {
 
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #463524;
+    color: #223946;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #902b1c;
