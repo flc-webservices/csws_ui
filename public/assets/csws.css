@@ -21,22 +21,48 @@ $cswsgray: #223946;  /* matches main nav bar of the main site
 
 .under {text-decoration: underline;}  /* for those occasions where we *want* underlining */
 h1, .h1 {
-    font-family: serif;
+    /*font-family: serif; */
     color: #463524;
 }
 .information h1 {
   font-family: sans-serif;
 }
-/*
+
 h1 a, .h1 a {
     color: #463524;
+
 }
-*/
+
 h1.full-chars {
     font-family:  sans-serif;
     margin-top: 5px;
 }
+h2,
+.h2 {
+  font-family: "PT Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #bf3726;
+}
 
+h3,
+.h3 {
+  font-family: "PT Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #9c341c;
+}
+
+h4,
+.h4 {
+  font-size: 1.125rem;
+  font-family: "PT Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+h5,
+.h5 {
+  font-weight: bold;
+}
 
 .alert-danger {
   background-color: #dfd7c9;
@@ -47,6 +73,128 @@ h1.full-chars {
 .search h2 {
   color: #ffffff;
 }
+.searchterm,
+.keywordscontext li em {
+  font-weight: bold;
+  padding: 0 0.2em;
+  background-color: #d5f7e9;
+}
+
+.searchterm {
+  background-color: #fcbd37;
+}
+.facet-group li {
+  border-top: 1px solid #dfd7c9;
+}
+.facet-group li:last-child {
+  border-bottom: 1px solid #dfd7c9;
+}
+.facet-group li > .recordnumber {
+  float: right;
+  color: #9c341c;
+}
+.object {
+  color: #463524;
+}
+
+.collection,
+.resource {
+  color: #463524;
+}
+button.subject {
+  /* class subject also turns up in finding aid transforms */
+  color: #463524;
+}
+.agent {
+  color: #463524;
+}
+
+.person {
+  color: #463524;
+}
+
+.record {
+  color: #463524;
+}
+
+.classification {
+  color: #463524;
+}
+
+.page_action {
+  color: #463524;
+}
+.page_action:hover,
+.page_action:focus {
+  color: #902b1c;
+  background-color: #eee;
+}
+
+.top_container {
+  color: #463524;
+}
+
+.folder {
+  color: #463524;
+}
+
+.recordtype.repository {
+  color: #463524;
+}
+
+.recordtype.classification {
+  color: #463524;
+}
+.breadcrumb > li + li::before {
+  color: #463524;
+  content: "| ";
+}
+
+.breadcrumb * a {
+  color: #902b1c;
+}
+
+.record-type-badge.resource {
+  color: #463524;
+  border-color: #463524;
+}
+
+.record-type-badge.archival_object {
+  color: #463524;
+  border-color: #463524;
+}
+
+.record-type-badge.agent {
+  color: #463524;
+  border-color: #463524;
+}
+
+.record-type-badge.accession {
+  color: #463524;
+  border-color: #463524;
+}
+
+.record-type-badge.classification {
+  color: #463524;
+  border-color: #463524;
+}
+
+.record-type-badge.digital_object {
+  color: #463524;
+  border-color: #463524;
+}
+
+.record-type-badge.repository {
+  color: #463524;
+  border-color: #463524;
+}
+
+.record-type-badge.subject {
+  color: #463524;
+  border-color: #463524;
+}
+
+
 #repo_deets .panel-body p {
     padding-left: 5px;
 }
@@ -123,7 +271,7 @@ span.large_it {
 /* logo and header rows */
 
 .panel-footer {
-    background-color: #463524;
+    background-color: #223946;
     color: #FFFFFF;
     font-family: "gill-sans-nova", sans-serif;
     font-weight: 100;
@@ -169,12 +317,12 @@ span.large_it {
 }
 /*  FIX THIS!! */
 #header .col-sm-9 {
-  float: right;
-  text-align: right;
+  float: left;
+  text-align: left;
 }
 /* FIX THIS */
 #header .logo {
-  float: left;
+  float: right;
   text-align: left;
   height: 120px;
 
@@ -359,7 +507,7 @@ h1 > span.title {
 
 
 .navbar-default .navbar-nav > li:hover {
-  background-color: #463524;
+  background-color: #902b1c;
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
