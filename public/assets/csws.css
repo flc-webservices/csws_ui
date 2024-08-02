@@ -20,16 +20,21 @@ $cswsgray: #223946;  /* matches main nav bar of the main site
 
 
 .under {text-decoration: underline;}  /* for those occasions where we *want* underlining */
+
+a {
+  color: #223946;
+
+}
 h1, .h1 {
     /*font-family: serif; */
-    color: #463524;
+    color: #223946;
 }
 .information h1 {
   font-family: sans-serif;
 }
 
 h1 a, .h1 a {
-    color: #463524;
+    color: #223946;
 
 }
 
@@ -94,35 +99,35 @@ h5,
   color: #9c341c;
 }
 .object {
-  color: #463524;
+  color: #223946;
 }
 
 .collection,
 .resource {
-  color: #463524;
+  color: #223946;
 }
 button.subject {
   /* class subject also turns up in finding aid transforms */
-  color: #463524;
+  color: #223946;
 }
 .agent {
-  color: #463524;
+  color: #223946;
 }
 
 .person {
-  color: #463524;
+  color: #223946;
 }
 
 .record {
-  color: #463524;
+  color: #223946;
 }
 
 .classification {
-  color: #463524;
+  color: #223946;
 }
 
 .page_action {
-  color: #463524;
+  color: #223946;
 }
 .page_action:hover,
 .page_action:focus {
@@ -131,22 +136,22 @@ button.subject {
 }
 
 .top_container {
-  color: #463524;
+  color: #223946;
 }
 
 .folder {
-  color: #463524;
+  color: #223946;
 }
 
 .recordtype.repository {
-  color: #463524;
+  color: #223946;
 }
 
 .recordtype.classification {
-  color: #463524;
+  color: #223946;
 }
 .breadcrumb > li + li::before {
-  color: #463524;
+  color: #223946;
   content: "| ";
 }
 
@@ -155,43 +160,43 @@ button.subject {
 }
 
 .record-type-badge.resource {
-  color: #463524;
-  border-color: #463524;
+  color: #223946;
+  border-color: #223946;
 }
 
 .record-type-badge.archival_object {
-  color: #463524;
-  border-color: #463524;
+  color: #223946;
+  border-color: #223946;
 }
 
 .record-type-badge.agent {
-  color: #463524;
-  border-color: #463524;
+  color: #223946;
+  border-color: #223946;
 }
 
 .record-type-badge.accession {
-  color: #463524;
-  border-color: #463524;
+  color: #223946;
+  border-color: #223946;
 }
 
 .record-type-badge.classification {
-  color: #463524;
-  border-color: #463524;
+  color: #223946;
+  border-color: #223946;
 }
 
 .record-type-badge.digital_object {
-  color: #463524;
-  border-color: #463524;
+  color: #223946;
+  border-color: #223946;
 }
 
 .record-type-badge.repository {
-  color: #463524;
-  border-color: #463524;
+  color: #223946;
+  border-color: #223946;
 }
 
 .record-type-badge.subject {
-  color: #463524;
-  border-color: #463524;
+  color: #223946;
+  border-color: #223946;
 }
 
 
@@ -279,7 +284,7 @@ span.large_it {
 }
 
 .panel-footer a {
-    background-color: #463524;
+    background-color: #223946;
     color: #FFFFFF;
     font-family: "gill-sans-nova", sans-serif;
     font-weight: 300;
@@ -673,7 +678,7 @@ ul.navbar-nav {
  div.nav-pill {
      border-left: 1px solid #ffffff;
      border-right: 1px solid #ffffff;
-     background-color: #463524;
+     background-color: #223946;
      color: #ffffff;
      text-align: center;
      padding-top: 6px;
@@ -682,7 +687,7 @@ ul.navbar-nav {
 
  div.nav-pill.active {
     background-color: #f2d997;
-    color: #463524;
+    color: #223946;
 }
 
  div.nav-pill > a {
@@ -700,7 +705,7 @@ div.nav-pill > a.active {
     text-decoration: none;
     cursor: none;
     background-color: #f2d997;
-    color: #463524;
+    color: #223946;
 }
 div.nav-pill.disabled {
     cursor: not-allowed;
@@ -750,7 +755,7 @@ div.search {
     padding-bottom: 0;
     padding-top: 0;
     vertical-align: middle;
-    color: #463524;
+    color: #223946;
 }
 
 @media (min-width: 768px) {
@@ -827,8 +832,8 @@ i.fa-plus, i.fa-minus {
 }
 .btn-primary {
     color: #fff;
-    background-color: #463524;
-    border-color:  #463524;
+    background-color: #223946;
+    border-color:  #223946;
     text-transform: uppercase;
 }
 
@@ -930,7 +935,7 @@ a.thumbnail.digital_object{
 /* pagination color choices and padding*/
 .pagination > li > a,
 .pagination > li > span {
-    color: #463524;
+    color: #223946;
     padding: 3px 7px;
     font-weight: bold;
 }
@@ -1023,7 +1028,7 @@ i { vertical-align: top; }
 
 .breadcrumb li { display: inline;}
 .breadcrumb>li+li:before {color: #6C6C6C; content: "/";}
-.breadcrumb * a {color: #463524; text-decoration: underline;}
+.breadcrumb * a {color: #223946; text-decoration: underline;}
 ul.breadcrumb {background-color: #FFFFFF; }
 .breadcrumb > li:nth-child(2):before {content: "";}
 
@@ -1101,11 +1106,11 @@ ul.breadcrumb {background-color: #FFFFFF; }
 }
 
 .largetree-container td {
-    color: #463524;
+    color: #223946;
 }
 
 .largetree-container a.record-title {
-    color:  #463524;
+    color:  #223946;
 }
 /* collection organization side bar: current */
 
@@ -1166,8 +1171,8 @@ ul.breadcrumb {background-color: #FFFFFF; }
     width: 200px;
 }
 .btn.digital_object {
-    color: #463524;
-    border-color:  #463524;
+    color: #223946;
+    border-color:  #223946;
 }
 
 .repository-logo {
@@ -1193,9 +1198,9 @@ ul.breadcrumb {background-color: #FFFFFF; }
 
 a.objectimagelnk {
     display: inline-block;
-    color: #463524;
+    color: #223946;
     border-style: solid;
-    border-color: #463524;
+    border-color: #223946;
     border-radius: 4px;
     border-width: 1px;
     padding: 0.25rem;
