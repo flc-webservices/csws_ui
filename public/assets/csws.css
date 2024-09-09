@@ -27,14 +27,14 @@ a {
 }
 h1, .h1 {
     /*font-family: serif; */
-    color: #223946;
+    color: #A33314;
 }
 .information h1 {
   font-family: sans-serif;
 }
 
 h1 a, .h1 a {
-    color: #223946;
+    color: #A33314;
 
 }
 
@@ -723,7 +723,7 @@ div.search {
     padding-bottom: 25px;
     padding-top: 25px;
     background: #A33314; /* For browsers that do not support gradients */
-    background: linear-gradient( to right, #A33314, #BC7252); /* Standard syntax (must be last) */
+    /*background: linear-gradient( to right, #A33314, #BC7252); *//* Standard syntax (must be last) */
 }
 
 .search .form-inline {
