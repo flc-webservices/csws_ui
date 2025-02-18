@@ -7,7 +7,7 @@ AppConfig[:pui_hide][:agents] = false
 AppConfig[:pui_hide][:accessions] = true
 AppConfig[:pui_hide][:classifications] = true
 AppConfig[:pui_branding_img] = "/assets/SWCenter-Logo.png"
-AppConfig[:pui_branding_img_alt_text] = "Center of SouthWest Studies"
+AppConfig[:pui_branding_img_alt_text] = "Center of Southwest Studies"
 
 # page actions override
 AppConfig[:pui_page_actions_cite] = true
