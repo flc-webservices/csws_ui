@@ -1,17 +1,13 @@
+# You should edit this to reflect your institution; fill in the brackets[]
 en:
-  next: Next
-  previous: Previous
-  errors:
-    error_pdf: "The PDF you've tried to download does not exist or may have been removed."
   brand:
-    title: Center of Southwest Studies Archives
-    title_subtext: ""
-    title_link_text: Return to the main page
+    title: Center of Southwest Studies
+    title_link_text: Return to the main page    
     logo_link: https://swcenter.fortlewis.edu/
     logo_link_title: CSWS
     logo_alt: CSWS Logo
     home: Home
-    welcome_head: Center of Southwest Studies
+    welcome_head: Center of Southwest Studies Archives
     welcome_message:  <p><span class="large_it serif">Search this database of collection inventories to locate original documents from the Center of Southwest Studies Archives Collections.</span></p>
     welcome_page_title: Archives of the Center of Southwest Studies
     welcome_about: "<h4>About this Website</h4>      <div> This website allows researchers to explore the Center of Southwest Studies archives and special collections, which consist of primary source documentation created by Fort Lewis College and other entities surrounding various topics pertinent to the people and cultures of the Southwestern United States. These materials include original documents, photographs, maps, blueprints, microfilm, audiovisual recordings, and ephemera. This database provides access to collection inventories that help users search the contents of these collections. Where possible, it also provides links to digitized archival materials already available via <a href='https://fortlewis.marmot.org/Archive/Home' target='ftl'>Marmot Digital Archive</a>, Fort Lewis College's online access point for digital materials. <br/><br/> View our <a href='/repositories/resources' title='link to list' class='under'>A-Z list of Archives and Special Collections</a>.
@@ -21,120 +17,11 @@ en:
     welcome_bias: "<h4 style='text-align:center; color:#bf3726'>Statement on Bias and Harmful Content</h4> <div style='text-align:center'>Please visit the Center's <a href='https://swcenter.fortlewis.edu/about/statement-on-bias-and-harmful-content' target='flc' title='link to more information' class='under'>website</a> to read more about Bias and Harmful Content </div> <h4 style='text-align:center; color:#bf3726'>How can I report harmful language in resource descriptions?</h4><div>If you encounter language in our catalog records, finding aids, digital object metadata, exhibits, social media, or elsewhere that you find offensive or harmful, we welcome your feedback, questions, or concerns. Please email us directly at <a href='mailto:archives@fortlewis.edu?subject=Reporting%20Harmful%20Language%20on%20the%20Archives%20Site&target=_blank' title='report harmful language by email' class='under'>archives@fortlewis.edu</a>. Please include the link to the webpage you are viewing, as well as a description of the inappropriate content.</div>"
 
     welcome_access: "<h4>Access Conditions</h4><div>Materials included in this database may be subject to access conditions informed by source communities, donors, and/or the Center of Southwest Studies.</div>"
-  
-    
-  
+
   footer:
-    staff: Staff Interface
-    archivesspace_home: "Powered by <a href='https://archivesspace.org' target='_blank'>ArchivesSpace</a>"
-    feedback: Send Feedback
-    help: Help
-    accessibility: Accessibility
-    copyright: © <b>2024</b> 
-    harmful_language_statement: Harmful Language Statement
-    privacy: Privacy
-    institution_link: https://www.fortlewis.edu
-    institution: Fort Lewis College
+      institution: <a href='https://www.fortlewis.edu' target='flc'>Fort Lewis College</a>
 
-  actions:
-    digital_only: Digital Material
-    search_in: "Search within %{type}"
-    hierarch: Collection Inventory
-    numeric: Container List
-    print: View PDF
-    browse: "Browse"
-    staff_link: Staff
-
-  archive:
-    _singular: The Archive
-    _plural: ''
-
-  csv:
-    ead_id: EAD ID
-    resource_title: Collection Title
-    resource_creator:  Collection Creator
-    resource_dates: Collection Dates
-    resource_ref_id: Collection Identifier
-    ref_id: Database Number
-    title: Component Title
-    date: Component Date
-    s_year: Start Year
-    e_year: End Year
-    id: Component identifier
-    type: Component type
-    creator: Component creator
-    container: Container info
-    phys: Physical description
-    loc: Location Note
-    restrict: Access Note
-    urn: Digital content link
-    parent: "Level %{i}"
-    download_title: Download CSV
-    download: CSV
-  search-limit_label: Limit
   search_results:
-    # results_head: "%{type}: <span>%{start}</span> - <span>%{end}</span> of <span>%{total}</span>"
     filter:
-      add: Refine my results
-
-  pdf_reports:
-    return: Return to Table of Contents
-    table_of_contents: Table of Contents
-   
-
-  context_delimiter: /
- 
-  subject_term_type:  Subject Term Type
-
-  request:
-    default: "<strong>Ready to get to work?</strong><p>Once you have compiled a list of material you would like to consult in the reading room, please contact %{repo} at <a href='mailto:%{email}'>%{email}</a>.</p>"
-    how_to_request: "How to Request"
-  
-  
-
-
-  resource:
-    _singular: Collection
-    _plural: Collections
-    _public:
-      finding_aid:
-        head: Administrative Information
-        ead_id: EAD ID
-
-  classification:
-    _singular: Institutional Record
-    _plural: Institutional Records
-  digital_object:
-    _public:
-       link: View Digital Contents
-       in_collection: "Contains digital material %{details} "
-       details:
-         _singular: (1 item)
-         _plural: "(%{ct} items)"
-  record_group:
-    _singular: Institutional Record
-    _plural: Institutional Records
-  inherit:
-    collection: Collection
-    recordgrp: Institutional Record
-
-  views:
-    _shared:
-       digital_object_link: "%{name}"
-       digital_flag: Digital
-       digital_flag_title: Has associated digital material
-    tree:
-       expand: Expand
-
-  enumerations:
-    instance_instance_type:
-      digital_object: View Digital Material
-    archival_record_level:
-      unspecified: Item
-      untitled: Untitled
-      collection: Collection
-      recordgrp: Institutional Record
-
-    _note_types:
-      odd: General note
-      abstract: Overview
+      from: From Year  
+      to: To Year

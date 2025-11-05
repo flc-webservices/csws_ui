@@ -42,31 +42,12 @@ h1.full-chars {
     font-family:  sans-serif;
     margin-top: 5px;
 }
-h2,
-.h2 {
-  font-family: "PT Sans", "Helvetica Neue", helvetica, arial, sans-serif;
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #bf3726;
-}
 
-h3,
-.h3 {
-  font-family: "PT Sans", "Helvetica Neue", helvetica, arial, sans-serif;
-  font-size: 1.25rem;
-  font-weight: bold;
-  color: #9c341c;
-}
 
 h4,
 .h4 {
   font-size: 1.125rem;
   font-family: "PT Sans", "Helvetica Neue", helvetica, arial, sans-serif;
-}
-
-h5,
-.h5 {
-  font-weight: bold;
 }
 
 .alert-danger {
@@ -494,7 +475,7 @@ h1 > span.title {
     padding-left: 0;
     padding-right: 0;
 }
-.navbar-default {
+/* .navbar-default {
     background-color: #223946 !important;
     border: 0;
 }
@@ -504,7 +485,7 @@ h1 > span.title {
 
 .navbar-default .navbar-nav > li > a {
   color: #FFFFFF;
-  border-right: 1px solid #223946;
+ 
   font-size: inherit !important;
   background-color: transparent;
   margin:0;
@@ -514,13 +495,12 @@ h1 > span.title {
 .navbar-default .navbar-nav > li:hover {
   background-color: #902b1c;
 }
+*/
 
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+.navbar-default .navbar-nav > li > a.nav-link:hover, .navbar-default .navbar-nav > li > a.nav-link:focus {
   color: #f2d997;
   text-decoration: none;
-  background-color: transparent;
-} 
-
+}  
 .search-keyword {
   border-radius: 0;
   margin-right: 5px !important;
@@ -671,7 +651,10 @@ ul.navbar-nav {
 }
 
 /* "pill" navigation on collection page */
-
+  .tabbing.navbar-default {
+    background-color: #fff;
+    border-color: #fff;
+  }
  div.nav-pills {
      margin-bottom : 2em;
 }
@@ -684,7 +667,29 @@ ul.navbar-nav {
      padding-top: 6px;
      padding-bottom: 6px;
 }
+a.navlink {
+  text-transform: uppercase;
+}
+ul.tabbing.nav-pills {
+  margin-left: -2em;
+}
+.tabbing.nav-pills > li > a {
+  background-color: #223946;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.tabbing.nav-pills > li > a:hover {
+  text-decoration: underline;
+}
+.tabbing.nav-pills > li > a.active
+{
+  background-color: #f2d997;
+  color: #223946;
 
+}
+.tabbing.nav-pills > li > a.active:hover{
+  text-decoration: none;
+}
  div.nav-pill.active {
     background-color: #f2d997;
     color: #223946;
@@ -1289,7 +1294,10 @@ span.dig_flag {
     text-transform: uppercase;
 
 }
-
+/* remove repository name in 'found in:' */
+.repo_name {
+      display: none;
+    }
 /* making dates, physical description, extent, etc. paragraphs indented */
 
 .dates-is-single-date, .extent, .langmaterial div.note-content {
@@ -1321,7 +1329,17 @@ span.dig_flag {
 }
 
 /* search button styling */
-
+/* search in the resource form */
+div.search .btn-primary {
+  color: #1e1e1e;
+  background-color: #FFFFFF;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+div.search .btn-primary:not(:disabled):not(.disabled):active {
+  color: #FFFFFF;
+  background-color: #1e1e1e;
+} 
 #submit_search {
     color: #1e1e1e;
     background-color: #FFFFFF;
@@ -1356,11 +1374,11 @@ form.form-inline #from_year0, form.form-inline #to_year0 {
 }
 
 /* move the sidebar handle to the right */
-  #sidebar.resizable-sidebar .resizable-sidebar-handle {
+/*   #sidebar.resizable-sidebar .resizable-sidebar-handle {
       left: auto;
       right: 0;
       background-color: #f2f2f2;
-}
+} */
 
 #info-buttons {
   float: right;
@@ -1393,7 +1411,7 @@ form.form-inline #from_year0, form.form-inline #to_year0 {
   .modal-button {
     display: inline-block;
   }
-
+  
   /* ADJUSTMENTS TO TOP OF RESOURCE VIEW PAGE */
   .identifier {
     text-align: center;

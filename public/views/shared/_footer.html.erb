@@ -2,7 +2,9 @@
   <div class="row">
      <div class="col-md-12">
        <p class="footer-items mb-0"><%= I18n.t("footer.staff_interface", staff_url: AppConfig[:frontend_proxy_url]).html_safe %>
-         | <a href='<%= t("footer.institution_link").html_safe %>' target='flc'><%= t("footer.institution") %></a>
+       <% if AppConfig[:institutionfooter] %>
+         | <%= I18n.t("footer.institution").html_safe %>
+        <% end %>
          | <%= I18n.t("footer.archivesspace_home").html_safe %>
          | <%= ASConstants.VERSION %>
          <% if AppConfig[:feedback_url] && !AppConfig[:feedback_url].blank? %> | <%= I18n.t("footer.feedback", :feedback_url => AppConfig[:feedback_url]).html_safe %><% end %></p>

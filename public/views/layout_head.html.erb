@@ -1,7 +1,9 @@
-<!-- IAS VERSION 1.13 -->
-<!-- %= stylesheet_link_tag "#{@base_url}/assets/csws_application.css", media: :all % -->
-
-
-<%= stylesheet_link_tag "#{@base_url}/assets/csws.css", media: :all %>
-<%= javascript_include_tag "#{@base_url}/assets/csws.js" %>
-
+<!-- for aspace version 4.1 -->
+<%= stylesheet_link_tag "#{@base_url}/assets/custom_theme.css", media: :all %>
+<%= stylesheet_link_tag "#{@base_url}/assets/csws.css", media:  :all %>
+<%#  Uncomment the next  lines to move the resources horizontal menu to be part of the flexible panel %>
+<%= javascript_include_tag "#{@base_url}/assets/detect_elem.js" %>
+<% if request.original_fullpath.match?('\/resources\/') %> 
+    <%=  javascript_include_tag "#{@base_url}/assets/resource_menu_move.js" %>
+<% end %> 
+<%# end of resources horizontal menu hack %>

@@ -1,7 +1,7 @@
-<section  id="header">
-  <div class="row">
+<section id="header">
+  <div class="d-flex row align-items-center px-4">
     <div class="col-sm-9">
-      <h1>
+      <p class="mb-2 h1">
         <% unless request.original_fullpath == "/" %>
           <a title="<%= t("brand.title_link_text") %>" href="<%= AppConfig[:public_proxy_url] %>">
         <% end %>
@@ -9,8 +9,8 @@
         <% unless request.original_fullpath == "/" %>
           </a>
         <% end %>
-      </h1>
+      </p>
     </div>
-    <div class="col-sm-3 hidden-xs"><a href="https://swcenter.fortlewis.edu/" target="csws_new" title="<%= AppConfig[:pui_branding_img_alt_text] %>"><img class="logo" src="<%= asset_path(AppConfig[:pui_branding_img]) %>" alt="<%= AppConfig[:pui_branding_img_alt_text] %>" /></a></div>
+    <div class="col-sm-3 d-none d-md-block"><a href="<%= AppConfig[:pui_branding_href] %>" target="brand"><img class="logo" src="<%= asset_path(AppConfig[:pui_branding_img]) %>" alt="<%= AppConfig[:pui_branding_img_alt_text] %>" /></a></div>
   </div>
 </section>
